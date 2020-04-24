@@ -37,6 +37,10 @@ const HomeScreen = ({navigation}) => {
         onPress={()=>navigation.navigate('TextScreen')}
         title="Go to Text Screen Demo"
       />
+      <Button
+        onPress={()=>navigation.navigate('BoxModel')}
+        title="Go to Box Model Demo"
+      />
     </View>
   );
 };
